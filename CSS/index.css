@@ -1,0 +1,35 @@
+*{
+    background-color: black;
+
+}
+
+li {
+    display: inline;
+    float: left;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    padding:20px;
+    color: white;
+    font-family: "Tilt Warp";
+    border: 2px solid black;
+    transition: .5s;
+
+  }
+
+  a:hover {
+    border: 5px solid white;
+    transition: .5s;
+  }
+
+
+.title{
+    font-family: "Tilt Warp";
+    color: white;
+    font-size: 50px;
+    padding: 50px 500px 50px 500px;
+}
